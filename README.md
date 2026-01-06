@@ -8,4 +8,8 @@ python manage.py startproject "Name"
 
 python manage.py startapp  'Name'
 
+# from installing Virtual environment in Window
+.\.venv\Scripts\activate    
 
+# from deactivating write deactivate                          
+   
