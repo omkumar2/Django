@@ -23,6 +23,13 @@ this is given from Django
 
 python manage.py migrate
 
+# for runing the server 
+
+python manage.py runserver
 
 user is om
-this password is for local server om@kumar
+this password is for local server ##@kumar
+
+
+# if you create models or make change you need to migrate , this is the command
+python manage.py makemigrations #here should be name of file 

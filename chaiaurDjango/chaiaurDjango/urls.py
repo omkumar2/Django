@@ -16,6 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf import Settings               # same here also
+from django.conf.urls.static import static     # this use for import media from settings 
 from . import views
 
 urlpatterns = [
@@ -26,5 +28,5 @@ urlpatterns = [
     path('chai', include('chai.url')),
     
     path("__reload__/", include("django_browser_reload.urls")),
-]
+] + static(Settings.MEDIA_URL, document_root = Settings.MEDIA_ROOT)
 
