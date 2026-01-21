@@ -13,13 +13,13 @@ python manage.py startapp  'Name'
 
 # from deactivating write deactivate                          
    
-if you are giving any problem in install pip 
+# if you are giving any problem in install pip 
 
 python -m ensurepip --upgrade
 
 python -m pip install --upgrade pip
 
-this is given from Django 
+ # this is given from Django 
 
 python manage.py migrate
 
@@ -33,3 +33,10 @@ this password is for local server ##@kumar
 
 # if you create models or make change you need to migrate , this is the command
 python manage.py makemigrations #here should be name of file 
+
+python manage.py migrate
+
+# to start the tailwind this command is used 
+
+python manage.py tailwind start
+ 
